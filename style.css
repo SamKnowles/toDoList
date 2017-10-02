@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  background-image:
+    -webkit-linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em),
+    -webkit-linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
+  background-image:
+    -moz-linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em),
+    -moz-linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
+  background-image:
+    -o-linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em),
+    -o-linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
+  background-image:
+    -ms-linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em),
+    -ms-linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
+  -webkit-background-size: 100% 2em;
+  -moz-background-size: 100% 2em;  /* In a perfect world... */
+  background-image:
+    linear-gradient(0deg, transparent 5em, rgba(255,0,0,.2) 0, transparent 5.1em),
+    linear-gradient(rgba(0,0,255,.3) 1px, transparent 0);
+  background-size: 100% 2em;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+h1 {
+padding-top: 3px;
+}
+
+h2 {
+margin-top: 8px;
+}
+
+#text-box {
+  margin-bottom: 15px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  flex-flow: column wrap;
+  width: 550px;
+  height: 600px;
+  margin: 15px 5px 15px 5px;
+  }
+
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.list-group-item {
+  font-size: 30px;
+  color: Black;
+  margin-bottom: -4px;
+}
